@@ -1,0 +1,39 @@
+
+[
+    {
+        "name": "The burger of death",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-s/13/8c/6d/99/dark-vader-burger.jpg",
+        "kcal": 700,
+        "gluten": true,
+        "lactose": true,
+        "description1": "Nr 1 last meal of choice for death row inmates",
+        "description2": "Will propably kill you"
+    },
+    {
+        "name": "The burger of famine",
+        "img": "https://media.istockphoto.com/id/173619319/photo/begging.jpg?s=612x612&w=0&k=20&c=afgey5gPiTwRgiw51jM0ztSUADPcd1nFOKEIOz3tqk4=",
+        "kcal": 0,
+        "gluten": false,
+        "lactose": false,
+        "description1": "Climate friendly: Do your part in saving the planet and starve",
+        "description2": "May contain traces of suffering"
+    },
+    {
+        "name": "The burger of conquest",
+        "img": "https://media.istockphoto.com/id/469660542/photo/favourite-burger-toppings.jpg?s=612x612&w=0&k=20&c=FAddvtpprWAuyIEeD7QxavR6CXD7pzkLHwRsWF01daY=",
+        "kcal": 2300,
+        "gluten": true,
+        "lactose": true,
+        "description1": "With the infamous imperialist sauce",
+        "description2": "May cointain traces of colonialism"
+    },
+    {
+        "name": "The burger of war",
+        "img": "https://cdn.vox-cdn.com/thumbor/p_vvub1AqgZqpayyXQFNN9FqYVY=/28x0:472x333/1400x788/filters:focal(28x0:472x333):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/39075092/black-bear-guinness-burger-eater.0.jpg",
+        "kcal": 12000,
+        "gluten": true,
+        "lactose": true,
+        "description1": "Burger... burger never changes",
+        "description2": "When all diplomatic options have failed"
+    }
+]
