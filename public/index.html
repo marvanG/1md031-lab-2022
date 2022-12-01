@@ -1,133 +1,18 @@
-<!DOCTYPE HTML>
-<html lang="en">
-   <head>
-       <title>BurgerApocalypse</title>
-       <link rel="icon" type="image/svg+xml" href="https://www.kindpng.com/picc/m/5-52036_hamburger-picture-transparent-transparent-background-burger-clipart-hd.png" />
-       <meta charset="utf-8"/>
-       <link rel="stylesheet" type="text/css" href="style.css">
-   </head>
-   <body>
-    <header>
-    <a id="banner"><img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2020/04/29/33077.jpg" alt="header"></a>
-    <h1 id="headline"> Welcome to BurgerApocalypse</h1>
-    </header>
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <!--<link rel="icon" href="<%= BASE_URL %>favicon.ico"> -->
+    <!--<title><%= htmlWebpackPlugin.options.title %></title> -->
+  </head>
+  <body>
     
-    <main>
-        <section id="selection">
-            <div class="burgerstyle">
-                <h2>The four burgers of the apocalypse </h2>
-                <p>This is our burger selection. Please select a burger to order.</p>
-
-            </div>
-            <br>
-            <div class="wrapper">
-                <div class="burger a">
-                    <div class="burgerstyle">
-                        <h3>The burger of <span class="keyword">death</span></h3>
-                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/13/8c/6d/99/dark-vader-burger.jpg"alt="Span" title="burger" style="width: 200px">
-                    </div>
-                    <ul>
-                        <li>Nr 1 last meal of choice of death row inmates</li>
-                        <li>Will propably kill you</li>
-                        <li>I am become <span class="important">death</span> destroyer of worlds</li>
-                    </ul>
-                
-                </div>
-                <div class="burger b">
-                    <div class="burgerstyle">
-                        <h3>The burger of <span class="keyword">famine</span></h3>
-                        <img src="https://static1.bigstockphoto.com/5/4/3/large1500/345265480.jpg"alt="Span" title="burger" style="width: 200px">
-                    </div>
-                    <ul>
-                        <li>0 calories</li>
-                        <li>Will make you hungry</li>
-                        <li>May cointain traces of suffering</li>
-                    </ul>
-                </div>
-                <div class="burger c">
-                    <div class="burgerstyle">
-                        <h3>The burger of <pan class="keyword">conquest</pan></h3>
-                        <img src="https://media.istockphoto.com/id/469660542/photo/favourite-burger-toppings.jpg?s=612x612&w=0&k=20&c=FAddvtpprWAuyIEeD7QxavR6CXD7pzkLHwRsWF01daY="alt="Span" title="burger" style="width: 200px">
-                    </div>
-                    <ul>
-                        <li><span class="important">Win the day</span></li>
-                        <li>Expansive flavours</li>
-                        <li>May cointain traces of imperialism</li>
-                    </ul>
-                </div>
-                <div class="burger d">
-                    <div class="burgerstyle">
-                        <h3>The burger of <span class="keyword">war</span></h3>
-                        <img src="https://cdn.vox-cdn.com/thumbor/p_vvub1AqgZqpayyXQFNN9FqYVY=/28x0:472x333/1400x788/filters:focal(28x0:472x333):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/39075092/black-bear-guinness-burger-eater.0.jpg"alt="Span" title="burger" style="width: 200px">
-                    </div>
-                    <ul>
-                        <li>The biggest baddest burger</li>
-                        <li><span class="important">burger</span>... burger never changes</li>
-                        <li>When all diplomatic options have failed</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section id="info">
-            <div class="burgerstyle">
-                <h2>Customer information</h2>
-                <p>Here you will enter data</p> 
-                <br>
-                <form>
-                    <p>
-                        <label for="Fullname">Full name </label><br>
-                        <input type="text" id="Fullname" name="fn" required="required" placeholder="First- and Last name">
-                    </p>
-                    <p>
-                        <label for="email">E-mail</label><br>
-                        <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
-                    </p>
-                    <p>
-                        <label for="Street">Street</label><br>
-                        <input type="text" id="Street" name="sn" placeholder="Street name">
-                    </p>
-                    <p>
-                        <label for="House">House</label><br>
-                        <input type="number" id="House" name="hn" required="required" placeholder="House number">
-                    </p>
-                    <p>
-                        <label for="payment">Payment method</label><br>
-                        <select id="payment" name="pm">
-                            <option>Credit card</option>
-                            <option>Swish</option>
-                            <option>Cash</option>
-                            <option>Bitcoin</option>
-                        </select>
-                    </p>
-                    
-                    <p> Please select sex</p>
-                    <p>
-                        <label for="Male">Male</label>
-                        <input type="radio" id="Male" name="gender" required="required">
-                    </p>
-                    <p>
-                        <label for="Female">Female</label>
-                        <input type="radio" id="Female" name="gender" required="required" >
-                    </p>
-                    <p>
-                        <label for="idk">I dont know</label>
-                        <input type="radio" id="Female" name="gender" required="required" checked="checked">
-                    </p>
-                    <input type="submit" value="Send info">
-                </form>
-            </div>  
-        </section>
-        <br>
-        <button type="submit">
-            <img src="send_button_icon.png" style="width:20px">
-            Place order
-          </button>
-      
-    </main>
-    <br>
-    <footer>
-        <hr>
-        &copy; BurgerTownOnline
-    </footer>
-   </body>
+    <noscript>
+     <!-- <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong> -->
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>
